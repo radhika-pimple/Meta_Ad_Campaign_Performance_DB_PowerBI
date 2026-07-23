@@ -16,7 +16,7 @@ The question I wanted my dashboard to answer: which platform performs better, wh
 
 ## About the data
 
-I used the [Social Media Advertisement Performance dataset](https://www.kaggle.com/datasets/alperenmyung/social-media-advertisement-performance) from Kaggle. It's a synthetic dataset (generated using Python's Faker and NumPy) built to mimic the kind of relational data model I'd actually get handed at a real job, split across 4 connected tables:
+I used the [Social Media Advertisement Performance dataset](https://www.kaggle.com/datasets/alperenmyung/social-media-advertisement-performance) from Kaggle. It's a dataset built to mimic the kind of relational data model I'd actually get handed at a real job, split across 4 tables:
 
 | Table | What it holds | Rows |
 |---|---|---|
@@ -27,11 +27,11 @@ I used the [Social Media Advertisement Performance dataset](https://www.kaggle.c
 
 Reporting period I analyzed: **07 May 2025 to 06 Aug 2025**.
 
-I picked this dataset over the more common flat "one row per ad" files on Kaggle on purpose. With 4 separate tables, I had to actually model the relationships in Power BI instead of dropping one CSV into a chart. That's closer to what I'd get handed in an actual analyst role.
+I picked this dataset over the more common flat "one row per ad" files on Kaggle on purpose. With 4 separate tables, I modelled the relationships in Power BI instead of dropping one CSV into a chart. 
 
 ## Tools I used
 
-- **Power BI Desktop** for data modeling, DAX measures, and the report itself
+- **Power BI Desktop** for data modeling, DAX measures, and the DB itself
 - **Power Query** for cleaning and shaping the raw CSVs before loading them in
 
 ## Data model
