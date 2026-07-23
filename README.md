@@ -44,17 +44,17 @@ I connected the 4 tables in a star-schema-style layout: `ads` and `users` both l
 
 I built one main report page with a metric selector, so the same set of visuals can switch between showing Impressions, Clicks, Purchases, CTR, or Conversion Rate depending on what I'm checking.
 
-**KPI cards** — Impressions, Clicks, Purchases, CTR, and Conversion Rate for whatever filters are applied, at the top.
+**KPI cards** :- Impressions, Clicks, Purchases, CTR, and Conversion Rate for whatever filters are applied, at the top.
 
-**Click by Age** — a histogram across `user_age`, to spot which age band responds strongest.
+**Click by Age** :- a histogram across `user_age`, to spot which age band responds strongest.
 
-**Click vs Conversion Rate** — a scatter plot comparing Facebook against Instagram, so I can see at a glance if one platform wins on clicks but loses on actual conversions.
+**Click vs Conversion Rate** :- a scatter plot comparing Facebook against Instagram, so I can see at a glance if one platform wins on clicks but loses on actual conversions.
 
-**Click by Gender** — a donut chart of engagement split by gender.
+**Click by Gender** :- a donut chart of engagement split by gender.
 
-**Click by Interest** — a horizontal bar chart ranking which target interest category (fashion, tech, travel, etc.) drives the most engagement.
+**Click by Interest** :- a horizontal bar chart ranking which target interest category (fashion, tech, travel, etc.) drives the most engagement.
 
-**Click by Country** — a map showing where the engaged audience is concentrated.
+**Click by Country** :- a map showing where the engaged audience is concentrated.
 
 I added filters on the right for Campaign, Target Interest, Month, and Campaign Name, so I can drill from "all campaigns, all interests" down to "just the fashion campaigns in May."
 
